@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recommendation Form</title>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <h1>Recommendation Form</h1>
+  <form id="recommendationForm">
+    <label for="question1">Question 1: What type of project do you enjoy working on the most?</label><br>
+    <select id="question1" name="question1">
+      <option value="" disabled selected>Please choose an option</option>
+      <option value="web">Web Development</option>
+      <option value="mobile">Mobile App Development</option>
+      <option value="data">Data Analysis</option>
+      <option value="game">Game Development</option>
+    </select><br><br>
+
+    <label for="question2">Question 2: What is your preferred programming paradigm?</label><br>
+    <select id="question2" name="question2">
+      <option value="" disabled selected>Please choose an option</option>
+      <option value="imperative">Imperative</option>
+      <option value="functional">Functional</option>
+      <option value="object-oriented">Object-Oriented</option>
+      <option value="declarative">Declarative</option>
+    </select><br><br>
+
+    <label for="question3">Question 3: What is your level of experience?</label><br>
+    <select id="question3" name="question3">
+      <option value="" disabled selected>Please choose an option</option>
+      <option value="beginner">Beginner</option>
+      <option value="intermediate">Intermediate</option>
+      <option value="advanced">Advanced</option>
+    </select><br><br>
+
+    <label for="question4">Question 4: What is your preferred platform?</label><br>
+    <select id="question4" name="question4">
+      <option value="" disabled selected>Please choose an option</option>
+      <option value="frontend">Frontend (Browser)</option>
+      <option value="backend">Backend (Server)</option>
+      <option value="desktop">Desktop</option>
+      <option value="mobile">Mobile</option>
+    </select><br><br>
+
+    <label for="question5">Question 5: What is your goal in learning a programming language?</label><br>
+    <select id="question5" name="question5">
+      <option value="" disabled selected>Please choose an option</option>
+      <option value="career">Career advancement</option>
+      <option value="hobby">Hobby project</option>
+      <option value="research">Academic research</option>
+      <option value="startup">Building a startup</option>
+    </select><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <div id="recommendationResult"></div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
